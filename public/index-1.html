@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>swen-610 Web Assignment 1</title>
+  <meta name="description" content="second web assignment">
+  <meta name="author" content="Ali Khalid">
+  <link rel="stylesheet" type="text/css" href="club.css">
+</head>
+
+
+<body>
+    <script src="club.js"></script>
+    <h1>Nightclub Capacity Tracker</h1>
+    <h3>Each time someone enters/ leaves the club, select the correct club and click the appropriate button</h3>
+    
+    <div class="details">
+        <div class="box" id="Club Arcane details" capacity="100" yellow="70"> Club Arcane </div>
+        <div class="box" id ="Club Underground details" capacity="50" yellow="30"> Club Underground</div>
+        <div class="box" id ="Club Soda details" capacity="20" yellow="12"> Club Soda</div>
+        <div class="box" id ="Studio 52 details" capacity="52" yellow="32"> Studio 52 </div>
+    </div>
+
+    <div class="radio-buttons">
+        <input type="radio" id="Club Arcane" name="club" value="0">
+        <label for="Club Arcane">Club Arcane</label><br>
+        <input type="radio" id="Club Underground" name="club" value="0">
+        <label for="Club Underground">Club Underground</label><br>
+        <input type="radio" id="Club Soda" name="club" value="0">
+        <label for="Club Soda">Club Soda</label><br>
+        <input type="radio" id="Studio 52" name="club" value="0">
+        <label for="Studio 52">Studio 52</label>
+    </div>
+    <div>
+        <button class="button" onclick="increment()">+</button>
+        <button class="button" onclick="decrement()">-</button>
+    </div>
+
+
+
+</body>
+</html>
