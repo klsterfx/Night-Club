@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Web Assignment 0</title>
+  <meta name="description" content="First web assignment">
+  <meta name="author" content="Ali Khalid">
+
+  <script>
+    function myFunction() { 
+      var club = document.getElementById("club").value;
+      var clubDetails = document.getElementById("club-details");
+      if (club == "Club Arcane"){
+        clubDetails.value = " Name : Club Arcane \n Location: New York \n Capacity: 500 \n Muiscal Themme: Pop ";
+        clubDetails.style.background = "cyan";
+        clubDetails.style.color = "black";
+      }
+      else if(club == "Club Underground"){
+        clubDetails.value = " Name : Club Underground \n Location: New Jersey \n Capacity: 400 \n Muiscal Themme: Rock ";
+        clubDetails.style.background = "black";
+        clubDetails.style.color = "white";
+      }
+      else if(club == "Club Soda"){
+        clubDetails.value = " Name : Club Soda \n Location: Rochester \n Capacity: 300  \n Muiscal Themme: Metal  ";
+        clubDetails.style.background = "red";
+        clubDetails.style.color = "blue";
+      }
+      else if(club == "Studio 52"){
+        clubDetails.value = " Name : Studio 52 \n Location: Los Angeles \n Capacity: 200 \n Muiscal Themme: Grunge ";
+        clubDetails.style.background = "blue";
+        clubDetails.style.color = "red";
+      }
+      else if(club == "Ciro's"){
+        clubDetails.value = " Name : Ciro's \n Location: Chicago \n Capacity: 100 \n Muiscal Themme: Pop ";
+        clubDetails.style.background = "green";
+        clubDetails.style.color = "yellow";
+      }
+      else if(club == "Paradisio Garage"){
+        clubDetails.value = " Name : Paradisio Garage \n Location: Las Vegas \n Capacity: 50 \n Muiscal Themme: Metal ";
+        clubDetails.style.background = "yellow";
+        clubDetails.style.color = "green";
+      }
+    }
+    </script>
+</head>
+
+
+<body style="font-family:Segoe UI; text-align: center">
+  <h1 style ="font-weight:bold; font-family:Verdana;  font-size:36px">swen-610 Web Assignment 0</h1>
+  <h2 style="font-family:Impact">Section 1</h2>
+
+  <select id="club" onclick="myFunction()">
+    <option value="">Select a club</option>
+    <option value="Club Arcane">Club Arcane</option>
+    <option value="Club Underground">Club Underground</option>
+    <option value="Club Soda">Club Soda</option>
+    <option value="Studio 52">Studio 52</option>
+    <option value="Ciro's">Ciro's</option>
+    <option value="Paradisio Garage">Paradisio Garage</option>
+  </select>
+
+  <div style="padding-top:10px;">
+    <textarea id="club-details" rows="5" cols="50">
+
+    </textarea>
+  </div>
+
+
+</body>
+</html>
+

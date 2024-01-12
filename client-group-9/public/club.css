@@ -1,0 +1,30 @@
+body {
+    background: #d6d6aa;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+    
+.box {
+    background: #80e780;
+    display:inline-block;
+    width: 20%;
+    height: 250px;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding-top: 50px;
+    margin: 20px auto;
+  }
+
+.radio-buttons {
+    padding-left:45%;
+    text-align: left;
+}
+
+.button{
+    width: 50px;;
+    text-align: center;
+}
+
+.details{
+    font-size: 30px;
+}
