@@ -1,4 +1,4 @@
-# GROUP 9: SWEN610 Project
+# GROUP 9: Night-Club
 
 
 ## Table of Contents
